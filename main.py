@@ -42,8 +42,8 @@ def enviar_requests(start_number, end_number, interval):
     print("Todos os requests foram enviados.")
 
 # Parâmetros fixos (ou configure-os dinamicamente)
-start_number = 9752  # Número Inicial
-end_number = 20000   # Número Final
+start_number = 20001  # Número Inicial
+end_number = 32134   # Número Final
 interval = 15
      # Intervalo em segundos
 
