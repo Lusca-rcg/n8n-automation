@@ -18,7 +18,7 @@ def enviar_requests(start_number, end_number, interval):
 
         try:
             response = requests.post(
-                url="https://webhook.andrealencar.com.br/webhook/loop",
+                url="https://webhook.andrealencar.com.br/webhook/ab5296c4-546d-49ae-86b1-ac3ee8907655",
                 headers={"Content-Type": "application/json"},
                 data=json.dumps(data)
             )
@@ -42,8 +42,8 @@ def enviar_requests(start_number, end_number, interval):
     print("Todos os requests foram enviados.")
 
 # Parâmetros fixos (ou configure-os dinamicamente)
-start_number = 20001  # Número Inicial
-end_number = 32134   # Número Final
+start_number = 13  # Número Inicial
+end_number = 23   # Número Final
 interval = 15
      # Intervalo em segundos
 
